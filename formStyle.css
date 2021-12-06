@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background: -webkit-linear-gradient(left, cyan  , #9f01ea ,cyan);
+}
+
+.wrapear{
+   width: auto;
+   height: auto;
+   border: 1px solid black;
+   padding: 30px;
+   background-color: whitesmoke;
+   margin: auto ;
+   display: flex;
+   justify-content: center;
+   position: absolute;
+   top: 29%;
+   left: 42%;
+   text-align:center;
+}
+.login-head{
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.form-input input {
+    width: 250px;
+    height: 33px;
+    padding-left:10px ;
+}
+.email-div{
+    padding-top: 20px;
+}
+.password-div{
+    padding-top: 20px;
+}
+
+
+/* forgot - password*/
+.forgot-pass{
+    padding-top: 13px;
+    font-size: 15px;
+    display: flex;
+    padding-left: 4px;
+    color: cyan;
+}
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: deepskyblue;
+}
+a:active{
+    color: black;
+}
+
+
+/* submit css  */
+.submit-div{
+    padding-top: 12px;
+}
+input[type="submit"]:active{
+    color: black;
+}
+.submit-div input{
+    width: 265px;
+    height: 38px;
+    color: #00FF7F;
+    background: -webkit-linear-gradient(left, cyan  , #9f01ea ,cyan);
+    border: double 3px black;
+}
+
+@media(max-width:500px){
+    *{
+       align-items: center;
+    }
+    .wrapear{
+    width: 200px;
+    height: 250px;
+    padding-left: 100px;
+    padding-right: 100px;
+    }
+
+.form-input input{
+    width: 150px;
+}
+
+.submit-div input{
+    width: 168px;
+}
+
+.forgot-pass{
+ 
+ padding-left: 20px;
+
+}
+}
